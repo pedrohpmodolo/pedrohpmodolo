@@ -1,25 +1,29 @@
-# Site settings
-title: "Pedro Modolo"
+title: "Pedro Henrique Palhano Modolo"
 email: "modolo.ph@gmail.com"
-description: "Personal curriculum website for business and academic purposes."
+description: "Personal academic and research website"
 url: "https://pedrohpmodolo.github.io"
 github_username: "pedrohpmodolo"
 
-# SEO & Social
-author: "Pedro Modolo"
-linkedin_url: "https://www.linkedin.com/in/yourprofile"
-
-# Build settings
-theme: minima
+# Theme settings
+remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-include-cache
 
 # Navigation
 header_pages:
   - about.md
   - research.md
   - projects.md
+  - cv.md
   - contact.md
+
+# Color Scheme
+minimal_mistakes_skin: "default"
+minima:
+  skin: auto
+  include_custom_css: true
+
