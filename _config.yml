@@ -1,4 +1,4 @@
-title: "Pedro Henrique Palhano Modolo"
+title: "Pedro Modolo"
 email: "modolo.ph@gmail.com"
 description: "Personal academic and research website"
 url: "https://pedrohpmodolo.github.io"
@@ -15,7 +15,6 @@ plugins:
 
 # Navigation
 header_pages:
-  - about.md
   - research.md
   - projects.md
   - cv.md
