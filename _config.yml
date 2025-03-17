@@ -1,0 +1,25 @@
+# Site settings
+title: "Pedro Modolo"
+email: "modolo.ph@gmail.com"
+description: "Personal curriculum website for business and academic purposes."
+url: "https://pedrohpmodolo.github.io"
+github_username: "pedrohpmodolo"
+
+# SEO & Social
+author: "Pedro Modolo"
+linkedin_url: "https://www.linkedin.com/in/yourprofile"
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+
+# Navigation
+header_pages:
+  - about.md
+  - research.md
+  - projects.md
+  - contact.md
