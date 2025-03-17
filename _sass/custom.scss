@@ -1,22 +1,51 @@
-// Custom Styles
-body {
+// Global Styling for Navigation Bar
+.site-header {
     background-color: #FFFFFF;
+    padding: 15px 20px;
+    border-bottom: 2px solid #001F3F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+// Left side: Pedro Modolo (Modolo in bold & navy blue)
+.site-title {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.site-title a {
+    text-decoration: none;
     color: #000000;
 }
 
-.site-title {
-    color: #004081;
-}
-
-a {
+.site-title .modolo {
+    font-weight: bold;
     color: #001F3F;
 }
 
-.navbar {
-    background-color: #001F3F;
+// Right side: Navigation links
+.nav-menu {
+    display: flex;
+    gap: 20px;
 }
 
-.site-footer {
-    background-color: #000000;
-    color: #FFFFFF;
+.nav-link {
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #001F3F; // Hover color changes to navy blue
 }
