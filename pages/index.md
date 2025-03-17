@@ -1,10 +1,23 @@
 ---
-layout: Home
-title: "Pedro Modolo"
+layout: single
+title: "Welcome"
 permalink: /
 ---
 
-Hello! I’m an undergraduate student at Kean University (Union, NJ), graduating in May 2025. I have a strong interest in Machine Learning, Deep Learning, Data Analysis, and Software Development. Over the past year, my research has focused on LLM algorithms to develop a PKU-friendly dietitian app, combining AI with personalized nutrition solutions.
+# Pedro Modolo  
 
+🚀 **AI Researcher & Software Developer**  
+🔬 Specializing in **Machine Learning, Deep Learning, and AI-driven Nutrition**  
+📱 **Creator of PKUFuel** – an AI-powered **dietitian app for PKU patients**  
 
-[📧 Contact me](mailto:modolo.ph@gmail.com)
+---
+
+## 📌 Explore My Work  
+
+🔹 **[About Me](/about/)**  
+🔹 **[Research](/research/)**  
+🔹 **[Projects](/projects/)**  
+🔹 **[Curriculum Vitae](/cv/)**  
+🔹 **[Contact](/contact/)**  
+
+📧 **Reach me at:** [modolo.ph@gmail.com](mailto:modolo.ph@gmail.com)

@@ -13,8 +13,9 @@ plugins:
   - jekyll-paginate
   - jekyll-include-cache
 
-# Navigation
+# Navigation Menu
 header_pages:
+  - about.md
   - research.md
   - projects.md
   - cv.md
@@ -25,4 +26,3 @@ minimal_mistakes_skin: "default"
 minima:
   skin: auto
   include_custom_css: true
-
