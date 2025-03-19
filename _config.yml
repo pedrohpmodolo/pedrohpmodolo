@@ -4,15 +4,6 @@ description: "Personal academic and research website"
 url: "https://pedrohpmodolo.github.io"
 github_username: "pedrohpmodolo"
 
-# Theme settings
-remote_theme: "mmistakes/minimal-mistakes"
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-include-cache
-
 # Navigation Menu
 header_pages:
   - about.md
@@ -21,8 +12,15 @@ header_pages:
   - cv.md
   - contact.md
 
-# Color Scheme
-minimal_mistakes_skin: "default"
+# Theme and Custom Styling
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-include-cache
+
 minima:
   skin: auto
   include_custom_css: true
