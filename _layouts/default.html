@@ -1,22 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} | Pedro Modolo</title>
-    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-</head>
-<body>
+---
+layout: base
+---
 
-    {% include header.html %} <!-- Navigation Bar -->
+<div class="intro-header"></div>
 
-    <div class="container">
-        <div class="hero-section">
-            {{ content }}
-        </div>
+<main class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}">
+  {% if page.before-content %}
+    <div class="before-content">
+      {% for file in page.before-content %}
+        {% include {{ file }} %}
+      {% endfor %}
     </div>
+  {% endif %}
 
-    {% include footer.html %} <!-- Footer Section -->
+  {{ content }}
 
-</body>
-</html>
+  {% if page.after-content %}
+    <div class="after-content">
+      {% for file in page.after-content %}
+        {% include {{ file }} %}
+      {% endfor %}
+    </div>
+  {% endif %}
+</main>
