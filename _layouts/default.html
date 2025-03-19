@@ -8,11 +8,15 @@
 </head>
 <body>
 
-    {% include header.html %} <!-- Custom Navbar -->
-    
-    <main class="page-content">
-        {{ content }}
-    </main>
+    {% include header.html %} <!-- Top Navigation Bar -->
+
+    <div class="container">
+        <div class="content">
+            {{ content }}
+        </div>
+    </div>
+
+    {% include footer.html %} <!-- Footer Section -->
 
 </body>
 </html>

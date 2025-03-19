@@ -1,23 +1,29 @@
 ---
-layout: single
-title: "Welcome"
+layout: default
+title: "Pedro Modolo"
 permalink: /
 ---
 
-# Pedro Modolo  
+<div class="content">
+    <div class="text-content">
+        <h1><strong>Pedro</strong> Modolo</h1>
+        <p>
+            Undergraduate Student | AI Researcher | iOS Developer <br>
+            Specializing in **Machine Learning, Deep Learning, and AI-driven Nutrition**.
+        </p>
+        <p>
+            I am a research student at **Kean University**, graduating in May 2025. 
+            My work focuses on **LLM-powered dietary management for PKU patients**, 
+            developing AI solutions for personalized nutrition.
+        </p>
+    </div>
 
-🚀 **AI Researcher & Software Developer**  
-🔬 Specializing in **Machine Learning, Deep Learning, and AI-driven Nutrition**  
-📱 **Creator of PKUFuel** – an AI-powered **dietitian app for PKU patients**  
+    <img class="profile-image" src="/assets/profile.jpg" alt="Pedro Modolo">
+</div>
 
 ---
 
-## 📌 Explore My Work  
-
-🔹 **[About Me](/about/)**  
-🔹 **[Research](/research/)**  
-🔹 **[Projects](/projects/)**  
-🔹 **[Curriculum Vitae](/cv/)**  
-🔹 **[Contact](/contact/)**  
-
-📧 **Reach me at:** [modolo.ph@gmail.com](mailto:modolo.ph@gmail.com)
+## News
+- **Mar 2025** - Started research on AI-based dietary recommendation models.
+- **Feb 2025** - Developed PKUFuel, an iOS app for PKU dietary management.
+- **Jan 2025** - Published a paper on LLM and personalized nutrition AI.
